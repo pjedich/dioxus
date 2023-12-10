@@ -5,7 +5,7 @@ authors = ["Jonathan Kelley"]
 edition = "2018"
 description = "Dioxus render-to-string"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/DioxusLabs/dioxus/"
+repository = "https://github.com/pjedich/dioxus"
 keywords = ["dom", "ui", "gui", "react", "ssr"]
 
 [dependencies]
@@ -33,5 +33,5 @@ serde_json = "1.0.61"
 fs_extra = "1.2.0"
 
 [features]
-default = ["incremental"]
+default = []
 incremental = ["dep:tokio"]
